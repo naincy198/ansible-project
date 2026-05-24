@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: Assignment Success
+      debug:
+        msg: "Assignment 6 executed successfully"
